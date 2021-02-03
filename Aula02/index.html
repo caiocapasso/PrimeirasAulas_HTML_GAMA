@@ -3,9 +3,166 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Teste Bootstrap Aula 02</title>
+    <title>Teste CSS Aula 02</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="https://kit.fontawesome.com/8ac0ce319f.js" crossorigin="anonymous"></script>
   </head>
   <body>
-      <p>Aula 02</p>
+    <header
+      id="top"
+      class="container content-default bg-color-purple text-center"
+    >
+      <h2>iniciando com flex box</h2>
+      <h2>primeiro elemento</h2>
+    </header>
+    <div id="02" class="container content-default bg-color-blue text-center">
+      <h2>Display Flex</h2>
+      <h2>Display flex-wrap</h2>
+      <div class="content-flex content-default">
+        <div class="bg-color-purple flex-wrap">
+          <h3>#01</h3>
+        </div>
+        <div class="bg-color-purple flex-wrap">
+          <h3>#02</h3>
+        </div>
+        <div class="bg-color-purple flex-wrap">
+          <h3>#03</h3>
+        </div>
+      </div>
+      <h2>Display: grid: wrap</h2>
+      <div
+        class="content-default content-flex-direction flex-wrap bg-color-purple"
+      >
+        <h3>@01</h3>
+      </div>
+      <div
+        class="content-default content-flex-direction flex-wrap bg-color-purple"
+      >
+        <h3>@02</h3>
+      </div>
+      <div
+        class="content-default content-flex-direction flex-wrap bg-color-purple"
+      >
+        <h3>@03</h3>
+      </div>
+      <h2>Display: grid | flex item</h2>
+      <div class="content-default content-flex">
+        <div class="content-flex-direction bg-color-purple flex-item-1">
+          <h3>$01</h3>
+        </div>
+        <div class="content-flex-direction bg-color-purple flex-item-2">
+          <h3>$02</h3>
+        </div>
+        <div class="content-flex-direction bg-color-purple flex-item-3">
+          <h3>$03</h3>
+        </div>
+      </div>
+    </div>
+    <div id="03" class="container content-default bg-color-pink text-center">
+      <h2>Display: flex | flex item</h2>
+      <div class="content-flex content-default">
+        <div class="content-flex-direction bg-color-purple flex-item-1">
+          <h3>*01</h3>
+        </div>
+        <div class="content-flex-direction bg-color-purple flex-item-2">
+          <h3>*02</h3>
+        </div>
+        <div class="content-flex-direction bg-color-purple flex-item-3">
+          <h3>*03</h3>
+        </div>
+      </div>
+      <h2>Display: flex-direction | flex item</h2>
+      <div class="content-flex content-default content-flex-reverse">
+        <div class="content-default bg-color-blue flex-item-1">
+          <h3>+01</h3>
+          </div>
+        <div class="content-default bg-color-blue flex-item-2">
+          <h3>+02</h3>
+        </div>
+        <div class="content-default bg-color-blue flex-item-3">
+          <h3>+03</h3>
+        </div>
+      </div>
+    </div>
+    <div id="04" class="container content-default bg-color-yellow text-center">
+      <h2>Justify contents</h2>
+      <div class="content-flex content-justify">
+        <div class="content-default content-space-default bg-color-purple">
+          <h3>Bloco 01</h3>
+        </div>
+        <div class="content-default content-space-default bg-color-purple">
+          <h3>Bloco 02</h3>
+        </div>
+        <div class="content-default content-space-default bg-color-purple">
+          <h3>Bloco 03</h3>
+        </div>
+      </div>  
+      <h2>Justify contents - between</h2>
+      <div class="content-flex content-justify content-justify-between">
+        <div class="content-default content-space-default bg-color-purple">
+          <h3>Bloco 01</h3>
+        </div>
+        <div class="content-default content-space-default bg-color-purple">
+          <h3>Bloco 02</h3>
+        </div>
+        <div class="content-default content-space-default bg-color-purple">
+          <h3>Bloco 03</h3>
+        </div>
+      </div> 
+    </div>
+    <div id="05" class="container content-default bg-color-purple text-center">
+      <h2>Align item</h2>
+      <div class="content-flex content-align content-justify-between">
+        <div class="bg-color-yellow content-default">
+          <h3>informacao 01</h3>
+          <h3>informacao 02</h3>
+          <h3>informacao 03</h3>
+        </div>
+        <div  class="bg-color-yellow content-default">
+          <h3>informacao 04</h3>
+          <h3>informacao 05</h3>
+        </div>
+        <div  class="bg-color-yellow content-default">
+          <h3>informacao 06</h3>
+        </div>
+      </div>
+    </div>
+    <div id="06" class="container-parallax bg-img-version-1 content-parallax-data">
+      <div>
+        <h1>Container with parallax 01</h1>
+        <p>Mussum Ipsum, cacilds vidis litro abertis.<br/> Si num tem leite então bota uma pinga aí cumpadi!<br/> Leite de capivaris, leite de mula manquis sem cabeça.<br/> In elementis mé pra quem é amistosis quis leo. <br/>Tá deprimidis, eu conheço uma cachacis que pode alegrar sua vidis.</p>
+      </div>
+    </div>
+    <div id="07" class="container-parallax bg-img-version-2 content-parallax-data">
+      <div>
+        <h1>Container with parallax 02</h1>
+        <p>Mussum Ipsum, cacilds vidis litro abertis.<br/> Si num tem leite então bota uma pinga aí cumpadi!<br/> Leite de capivaris, leite de mula manquis sem cabeça.<br/> In elementis mé pra quem é amistosis quis leo. <br/>Tá deprimidis, eu conheço uma cachacis que pode alegrar sua vidis.</p>
+      </div>
+    </div>
+    <div id="08" class="container-parallax bg-img-version-3 content-parallax-data">
+      <div>
+        <h1>Container with parallax 03</h1>
+        <p>Mussum Ipsum, cacilds vidis litro abertis.<br/> Si num tem leite então bota uma pinga aí cumpadi!<br/> Leite de capivaris, leite de mula manquis sem cabeça.<br/> In elementis mé pra quem é amistosis quis leo. <br/>Tá deprimidis, eu conheço uma cachacis que pode alegrar sua vidis.</p>
+      </div>
+    </div>
+      <div class="content-left-main">
+        <a href="#top"><i class="fas fa-leaf"></i></a>
+        <a href="#02"><i class="fab fa-rocketchat"></i></a>
+        <a href="#03"><i class="fas fa-globe-europe"></i></a>
+        <a href="#04"><i class="far fa-paper-plane"></i></a>
+        <a href="#05"><i class="fab fa-canadian-maple-leaf"></i></a>
+        <a href="#06"><i class="fas fa-spa"></i></a>
+        <a href="#07"><i class="fas fa-plane"></i></a>
+        <a href="#08"><i class="fas fa-fighter-jet"></i></a>
+      </div>
+
+    <div class="content-top-button">
+      <a href="#top">
+        <i class="fas fa-arrow-circle-up"></i>
+      </a>
+    </div>
+    <footer class="content-flex content-align">
+        <p>Copyright 2021</p>
+    </footer>
   </body>
 </html>
