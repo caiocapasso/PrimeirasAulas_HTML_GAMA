@@ -5,6 +5,9 @@ html, body {
     background-image: url('../img/28279184939_a3d42b8cd2_b.jpg');
     height: 100%;
     font-family: 'Roboto', sans-serif;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-color: black;
 }
 
 #app h1 {
@@ -58,4 +61,21 @@ html, body {
 .get-results-button:hover{
     transition: 0.3s;
     background-color: red;
+}
+
+#results {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#results img {
+    border: 2px solid white;
+    margin: 2px;
+    transition: 0.3s;
+}
+
+#results img:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
 }

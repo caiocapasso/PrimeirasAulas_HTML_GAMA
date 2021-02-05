@@ -39,8 +39,8 @@
     getPhotos(filter).then(function (result) {
       results.innerText = "";
       result.forEach(function (photo) {
-        const url = `https://farm${photo.farm}.staticflickr.com/${photo.server}/${photo.id}_${photo.secret}.jpg`;
-        const thumbnail = `https://farm${photo.farm}.staticflickr.com/${photo.server}/${photo.id}_${photo.secret}_${suffixUrl}.jpg`;
+        const url = `https://farm${photo.farm}.staticflickr.com/${photo.server}/${photo.id}_${photo.secret}.webp`;
+        const thumbnail = `https://farm${photo.farm}.staticflickr.com/${photo.server}/${photo.id}_${photo.secret}_${suffixUrl}.webp`;
 
         let item = createFlickrThumb({
           thumb: thumbnail,
