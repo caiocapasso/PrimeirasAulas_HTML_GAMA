@@ -1,0 +1,109 @@
+html { 
+    background: url('./bck_chuck.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.or {
+    color: red;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.main-app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+
+
+/* FORM */
+input, select, textarea, option, ::placeholder{
+    color: #ff0000;
+}
+
+.form-container {
+    position: fixed;
+    bottom: 25%;
+}
+
+.form-inputs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row;
+}
+
+.search-form {
+    display: flex;
+    justify-content: center;
+    display: grid;
+}
+
+.search-input {
+    width: 10em;
+    font-size: 1.5em;
+    font-family: 'Roboto', sans-serif;
+    color: red;
+    text-align: center;
+    border: solid red;
+    border-radius: 5px;
+}
+
+
+.search-select {
+    width: 10em;
+    height: 1.5em;
+    font-size: 1.5em;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    border: solid red;
+    border-radius: 5px;  
+}
+
+
+.get-result-button {
+    transition: 0.3s;
+    color: #FFF;
+    background-color: red;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2em;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.get-result-button:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+/* JOKE */
+
+.joke-container {
+    opacity: 0.0;
+    position: fixed;
+    top: 20%;
+    width: 60%;
+    background-color: white;
+    border-radius: 5px;
+    min-height: 200px;
+    padding: 5px;
+    transition: 0.5s;
+}
+
+#avatar {
+
+}
+
+#joke {
+    font-size: 1.5em;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
